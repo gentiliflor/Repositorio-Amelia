@@ -1,0 +1,227 @@
+@import url('https://fonts.googleapis.com/css2? family= Lato:ital,wght@0,100;1,300 & family= Roboto:ital,wght@0,100;0,400;1,300 & display=swap' );
+@import url('https://fonts.googleapis.com/css2? familia= Roboto:ital,peso@0,400;1,300 & display=swap' );
+
+html {
+	font-size: 62.5%;
+}
+body{
+	background-color: #FCEAFB;
+}
+h1{
+	color: #AD3383;
+	font-family:'Roboto', sans-serif ;
+	font-size: 2.2rem;
+}
+
+h2{		
+color:#DE64D4 ;
+font-size: 2rem;
+font-family: 'Roboto', sans-serif;
+}
+h3{	
+color:#DE64D4 ;
+font-size: 2rem;
+font-family: 'Roboto', sans-serif;
+}
+h4{
+color:#DE64D4 ;
+font-size: 2rem;
+font-family: 'Roboto', sans-serif;
+}
+
+
+.botonera ul li  {
+list-style: none;
+display: inline-flex;
+margin-right: 10px;
+}
+
+.botonera ul li a {
+	color: #0D0C0C;
+ 	 text-decoration:none;
+ 	 font-family: 'Roboto', sans-serif;
+ 	 font-size: 1.5rem;
+ 	 font-weight: 700;
+}
+
+
+.header__texto{
+	display: flex;
+	justify-content: center;
+	flex-direction: row-reverse
+	width: 100%;
+	height: auto;
+	padding: 10px;
+	margin: auto;
+	text-align: center;
+	font size: 8rem;
+	line-height: 2rem;
+	
+}
+
+.img{
+	display: flex;
+	flex-direction: row-reverse;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	align-content: space-between;
+	margin: auto;
+
+}
+
+
+.botonera{
+	background-color:rgba(236, 185, 245, 0.4);
+	font-size: 2.4rem;
+	font-family: 'Roboto', sans-serif;
+	width: 100%;
+	padding: 1px 5px;
+	position: sticky;
+	display: flex;
+	justify-content:space-between;
+	align-items: center;
+
+ }
+
+ .botonera nav ul {
+ 	display: flex;
+ }
+
+ article p{
+ 	font-family:'Lato', sans-serif;
+ 	font-size: 2rem;
+ 	line-height: 3rem;
+ 	font-weight: 250;
+
+ }
+ .imagenHeader{
+	width: 75%;
+    padding: 10px 150px;
+    height: 400px;
+    margin: auto;
+}
+ 
+
+
+.text-center{
+	text-align: center;
+}
+.text-italic{
+	font-style: italic;
+}
+.bg-light{
+	background-color:#DCDCEB;
+}
+
+.bg-pink{
+	background-color: #EF9AE2;
+}
+
+footer img{
+	display:block;
+	margin:auto;
+}
+
+	
+div p {
+color: #0D0C0C;
+}
+
+.productos{
+	text-transform: uppercase;
+	font-size: 3rem;
+	text-align: center;
+	padding: 20px 0;
+	font-family: Roboto, sans-serif;
+	margin: 20px 0;
+}
+.filtros ul{
+	list-style:none; 
+}
+  .galeria figure{ 
+	display: inline-block;
+	text-align: center;
+
+ }
+
+   .galeria figcaption{
+			font-size: 2rem;
+			padding: 10px 0;
+			text-align: center;
+			
+		}
+
+		.price{
+			font-size: 2rem;
+			text-align: center;
+
+		}
+	
+.nuevos{
+	width: 100%;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.nuevos figure{
+	display: inline-block;
+}
+
+.mapa{
+	text-align: center;
+}
+
+.DestacP{
+	font-size: 2rem;
+	text-align: center;
+	font-family: 'roboto';
+	color: #64174A;
+}
+
+
+.product{
+	display: grid;
+   grid-template-columns: repeat(3, 1fr) ;
+   grid-template-rows: auto;
+   grid-template-areas:"filtros galeria galeria"
+   "filtros galeria galeria";
+
+}
+
+ .galeria{
+ 	display: flex;
+ 	flex-flow: row wrap;
+ 	grid-area: galeria;
+
+ }
+ .filtros{
+ 	grid-area: filtros;
+ 	font-size: 1.5rem;
+ 	text-align: left;
+ }
+
+
+
+.containerSale{
+	display: grid;
+	grid-template-columns:80% 20%;
+	grid-template-rows: auto;
+	grid-template-areas:"sale destacado"
+	"sale destacado" ;
+}
+ 
+#destacado{
+    grid-area: destacado;
+    flex-flow: row wrap;
+    grid-area: destacado;
+}
+
+.sale{
+	width: 100%;
+	margin: 0 auto;
+	text-align: center;
+	}
+
+
+
+
